@@ -29,6 +29,7 @@ Index Of Script
 ------------------------------------------------
 Index Of Script
 ----------------------------------------------*/
+
 (function(jQuery) {
 
     "use strict";
@@ -720,6 +721,7 @@ Index Of Script
         jQuery(window).scroll(animateElements);
 
 
+
         /*---------------------------
         Pricing
         ---------------------------*/
@@ -823,3 +825,64 @@ Index Of Script
 
     });
 })(jQuery);
+
+
+document.querySelector('#spanFirst').onmouseenter=function(){
+    document.querySelector('.numberTest').style.color='#ff6a5c'
+    document.querySelector('.iconTest').style.color='#ff6a5c'
+}
+
+document.querySelector('#spanFirst').onmouseleave=function(){
+    document.querySelector('.numberTest').style.color='#808080'
+    document.querySelector('.iconTest').style.color='#808080'
+}
+
+document.querySelector('#spanSecond').onmouseenter=function(){
+    document.querySelector('.numberTestTwo').style.color='#ff6a5c'
+    document.querySelector('.iconTestTwo').style.color='#ff6a5c'
+}
+
+document.querySelector('#spanSecond').onmouseleave=function(){
+    document.querySelector('.numberTestTwo').style.color='#808080'
+    document.querySelector('.iconTestTwo').style.color='#808080'
+}
+
+document.querySelector('#spanThird').onmouseenter=function(){
+    document.querySelector('.numberTestThree').style.color='#ff6a5c'
+    document.querySelector('.iconTestThree').style.color='#ff6a5c'
+}
+
+document.querySelector('#spanThird').onmouseleave=function(){
+    document.querySelector('.numberTestThree').style.color='#808080'
+    document.querySelector('.iconTestThree').style.color='#808080'
+}
+
+document.querySelector('.hoverTest').onmouseover=function(){
+    document.querySelector('.numberTest').style.color='#ff6a5c'
+    document.querySelector('.iconTest').style.color='#ff6a5c'
+}
+
+document.querySelector('.hoverTest').onmouseleave=function(){
+    document.querySelector('.numberTest').style.color='#808080'
+    document.querySelector('.iconTest').style.color='#808080'
+}
+
+document.querySelector('.hoverTestTwo').onmouseover=function(){
+    document.querySelector('.numberTestTwo').style.color='#ff6a5c'
+    document.querySelector('.iconTestTwo').style.color='#ff6a5c'
+}
+
+document.querySelector('.hoverTestTwo').onmouseleave=function(){
+    document.querySelector('.numberTestTwo').style.color='#808080'
+    document.querySelector('.iconTestTwo').style.color='#808080'
+}
+
+document.querySelector('.hoverTestThree').onmouseover=function(){
+    document.querySelector('.numberTestThree').style.color='#ff6a5c'
+    document.querySelector('.iconTestThree').style.color='#ff6a5c'
+}
+
+document.querySelector('.hoverTestThree').onmouseleave=function(){
+    document.querySelector('.numberTestThree').style.color='#808080'
+    document.querySelector('.iconTestThree').style.color='#808080'
+}
