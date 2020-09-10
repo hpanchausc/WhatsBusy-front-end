@@ -1333,15 +1333,9 @@
 				});
 </script>
 <!-- reCaptcha -->
-<script src="https://www.google.com/recaptcha/api.js"></script>
-<script>
-	function onSubmit(token) {
-		document.getElementById("demo-form").submit();
-	}
-</script>
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
 
 <!-- Modal for Demo. -->
-
 <div class="modal fade" id="demo-modal" tabindex="-1" role="dialog" aria-labelledby="demo-modalTitle" aria-hidden="true">
 	<div class="modal-dialog modal-dialog-centered" role="document">
 	<div class="modal-content">
@@ -1383,13 +1377,11 @@
 			</form>
 		</div>
 		<div class="modal-footer">
-			<button type="button" class="btn btn-secondary" data-dismiss="modal"> Cancel </button>
-			<button class="g-recaptcha btn btn-success" 
-				data-sitekey="6Lf_lMoZAAAAAL5dghS0P2tTU9BKZNpoJY_2hqEw" 
-				data-callback='onSubmit' 
-				data-action='submit'
-			> Submit
-			</button>
+			<form action="?" method="POST">
+				<div class="g-recaptcha" data-sitekey="6Le-m8oZAAAAAFLlQR_N8MGo8u49T2H4hkmRLUHv"></div>
+			</form>
+			<button type="button" class="btn btn-secondary btn-sm" data-dismiss="modal"> Cancel </button>
+			<button type="button" class="btn btn-success btn-sm" data-dismiss="modal"> Submit </button>
 		</div>
 	</div>
 	</div>
