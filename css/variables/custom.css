@@ -46,3 +46,18 @@
     height: 235px;
     color: #F2C74A;
 }
+
+#macbook-img {
+    max-height: 100%;
+    max-width: 100%;
+    position: absolute;
+    z-index: 10;
+}
+
+.overlay {
+    max-width: 50px;
+    top: 0;
+    left: 0;
+    position: absolute;
+    z-index: 11;
+}
