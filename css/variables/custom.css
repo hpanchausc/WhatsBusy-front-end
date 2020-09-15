@@ -1,0 +1,48 @@
+.click-btn {
+    background: linear-gradient(90deg, rgba(242, 199, 74) 0%, rgba(242, 154, 73, 1) 100%);
+}
+
+.click-btn:hover {
+    transition-delay: 1s; /* delays for 1 second */
+    -webkit-transition-delay: 1s; /* for Safari & Chrome */
+    background-color:linear-gradient(90deg, rgba(242, 154, 73, 1) 0%, rgba(242, 199, 74) 100%);
+    filter: brightness(120%);
+}
+.sm-icon-img {
+    height: auto; 
+    width: auto; 
+    max-height: 50px;
+}
+.md-icon-img {
+    height: auto; 
+    width: auto; 
+    max-height: 70px;
+}
+
+.left-card:before {
+    content: "";
+    display: block;
+    position: absolute;
+    z-index: 1;
+    top: 100%;
+    left: 50%;
+    border: 1px dotted;
+    border-width: 0 0 0 5px;
+    width: 1px;
+    height: 25px;
+    color: #F2C74A;
+}
+
+.right-card:before {
+    content: "";
+    display: block;
+    position: absolute;
+    z-index: 1;
+    top: 100%;
+    left: 50%;
+    border: 1px dotted;
+    border-width: 0 0 0 5px;
+    width: 1px;
+    height: 235px;
+    color: #F2C74A;
+}
