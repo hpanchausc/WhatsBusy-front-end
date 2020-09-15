@@ -1,7 +1,19 @@
 :root {   
-  --primary-color: #6d73ef;
+  --primary-color: #F2C74A;
   --secondary-color: #1e1e1e;
-  --linear-color-1: rgb(109, 115, 239);
-  --linear-color-2: rgb(163, 120, 252, 1);
-  --linear-color-3: rgb(109, 115, 239, 0.8);
+  --linear-color-1: rgb(242, 199, 74);
+  --linear-color-2: rgb(242, 174, 74);
+  --linear-color-3: rgb(242, 154, 73);
 }
+
+/*
+
+#F2C74A
+#F2AE4A
+#F29A49
+
+(242, 199, 74)
+(242, 174, 74)
+(242, 154, 73)
+
+*/
