@@ -60,3 +60,14 @@
     position: absolute;
     z-index: 11;
 }
+
+.carousel-img {
+    max-width: 84px;
+    max-height: 82px;
+    display: block;
+    margin: auto;
+}
+
+.item {
+    margin: 0 15px 0 15px;
+}
