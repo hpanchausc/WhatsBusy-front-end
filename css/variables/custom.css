@@ -56,8 +56,7 @@
 
 .overlay {
     max-width: 50px;
-    top: 0;
-    left: 0;
+    padding: 25% 0% 0% 50%;
     position: absolute;
     z-index: 11;
 }
