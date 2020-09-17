@@ -71,3 +71,8 @@
 .item {
     margin: 0 15px 0 15px;
 }
+
+.segment-title {
+    padding: 20px 0px 20px 0px;
+    padding-top: 40px;
+}

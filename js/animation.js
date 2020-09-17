@@ -31,19 +31,6 @@ $(function() {
                 count++
             }
             console.log(count)
-        }, 5000);
+        }, 5000)
     })
 })
-
-/*
-
-if ((count / 5) === index)  {
-                console.log(value)
-                count++
-            } else if (count === (testArr.length * 5)) {
-                count = 0
-            } else {
-                count++
-            }
-
-*/
