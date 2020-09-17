@@ -69,6 +69,7 @@ NOTE: This is main stylesheet of template, This file contains the styling for th
   --body-font-family: 'Poppins', sans-serif;
 } */
 
+
 /* HTML Tags */
 a { color: var(--primary-color); outline: none; }
 a:focus, a:hover { color: #1e1e1e; outline: none; }
@@ -2146,6 +2147,17 @@ a.nav-link.active.show{background: transparent;}
     position: absolute;
     top: -150px;}
 
+.fa-alph {
+font-family: Arial, sans-serif; /* your font family here! */
+font-weight: bold;
+color: #860000;
+font-style: normal;   
+}
+
+.fa-circle-o hover {
+  color:red;
+}
+
 /*---------------------------------------------------------------------
                   Rating Effect (Feedback)
 -----------------------------------------------------------------------*/
@@ -2684,4 +2696,79 @@ Custom Tab
 .custom-tab-chat .nav.nav-pills[aria-orientation="vertical"] .nav-link.active h5, .custom-tab-chat .nav.nav-pills[aria-orientation="vertical"] .nav-link:hover h5 { color: #ffffff; }
 .custom-tab-chat .nav.nav-pills[aria-orientation="vertical"] .nav-link.active, .custom-tab-chat .nav.nav-pills[aria-orientation="vertical"] .nav-link:hover { box-shadow: 0px 22px 40px 0px rgba(0, 0, 0, 0.05); background: #437eeb; }
 .custom-tab-chat .nav.nav-pills[aria-orientation="vertical"] .nav-link.active:before, .custom-tab .nav.nav-pills[aria-orientation="vertical"] .nav-link:hover:before { display: none; }
+
+
+.chevron {
+  position: absolute;
+  width: 28px;
+  height: 8px;
+  opacity: 0;
+  transform: scale3d(0.5, 0.5, 0.5);
+  animation: moveH 3s ease-out infinite;
+}
+
+.chevron:first-child {
+  animation: moveH 3s ease-out 1s infinite;
+}
+
+.chevron:nth-child(2) {
+  animation: moveH 3s ease-out 2s infinite;
+}
+
+.chevron:before,
+.chevron:after {
+  content: ' ';
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 51%;
+  background: #F2C74A;
+}
+
+.chevron:before {
+  left: 0;
+  transform: skew(0deg, 30deg);
+}
+
+.chevron:after {
+  right: 0;
+  width: 50%;
+  transform: skew(0deg, -30deg);
+}
+
+@keyframes moveH {
+  25% {
+    opacity: 1;
+
+  }
+  33% {
+    opacity: 1;
+    transform: translateY(30px);
+  }
+  67% {
+    opacity: 1;
+    transform: translateY(40px);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(55px) scale3d(0.5, 0.5, 0.5);
+  }
+}
+
+.hridayArrow {
+  margin-bottom: 5%; 
+  margin-top: -2.3%
+}
+
+
+@media (max-width: 1000px) {
+  .hridayArrow {
+    display: none;
+  }
+}
+
+
+
+
+
 
