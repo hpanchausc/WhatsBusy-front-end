@@ -1,6 +1,7 @@
 const animationArr = [
-    'images/home-7/Industry.png', // 5
-    '/images/home-7/Segment.png', // 10
+    '/images/home-7/animation/first-animation.gif',
+    '/images/home-7/animation/second-animation.gif',
+    '/images/home-7/animation/second.png',
 ]
 
 // Initialize Counter.
@@ -15,7 +16,7 @@ $(function() {
         setInterval(() => {
             // When it hits 5 seconds then display the value at the index.
             // For example: 5 seconds / 5 === Index 0
-            if ((count / 5) === index)  {
+            if ((count / 2) === index) {
                 // Remove appended element to not cluster the DOM.
                 if($('.overlay')) {
                     $('.overlay').remove()
@@ -25,12 +26,13 @@ $(function() {
                 console.log(value)
                 count++
             // Resets count if the end of the array is reached to reset the animation to the beginning.
-            } else if (count === (animationArr.length * 5)) {
+            } else if (count === (animationArr.length * 2)) {
                 count = 0
             } else {
                 count++
             }
             console.log(count)
-        }, 5000)
+            console.log(index + " === " + value)
+        }, 2000)
     })
 })
