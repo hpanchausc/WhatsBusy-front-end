@@ -1,8 +1,19 @@
+const animationGif = $(`<img src="/images/home-7/animation/animation.gif" class="overlay img-fluid animated fadeIn">"`)
+
+$(function() {
+    $('.home-section-photo').append(animationGif)
+})
+
+// Original Code that used seperate PNGs and gifs stored in an array.
+
+/*
+
 const animationArr = [
-    '/images/home-7/animation/first-animation.gif',
-    '/images/home-7/animation/second-animation.gif',
-    '/images/home-7/animation/second.png',
+    './images/home-7/animation/first-animation.gif',
+    './images/home-7/animation/second-animation.gif',
+    './images/home-7/animation/second.png',
 ]
+
 
 // Initialize Counter.
 var count = 0
@@ -36,3 +47,5 @@ $(function() {
         }, 2000)
     })
 })
+
+*/
