@@ -1,4 +1,4 @@
-.click-btn {
+.click-btn, #submit-form {
     background: linear-gradient(90deg, rgba(242, 199, 74) 0%, rgba(242, 154, 73, 1) 100%);
 }
 
