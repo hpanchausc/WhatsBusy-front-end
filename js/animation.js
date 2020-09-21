@@ -1,4 +1,4 @@
-const animationGif = $(`<img src="/images/home-7/animation/animation.gif" class="overlay img-fluid animated fadeIn">"`)
+const animationGif = $(`<img src="/images/home-7/animation/home-section-animation.gif" class="overlay img-fluid animated fadeIn">"`)
 
 $(function() {
     $('.home-section-photo').append(animationGif)

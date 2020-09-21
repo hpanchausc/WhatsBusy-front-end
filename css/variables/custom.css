@@ -11,8 +11,18 @@
     filter: drop-shadow(3px 3px 3px #222);
 }
 
-#whatsbusy-logo {
-    color: #F2AE4A;
+#data-science-column {
+    max-height: 380px;
+    margin-top: -40px;
+}
+
+#traditional-process-column {
+    max-height: 65%;
+    margin-top: -30px;
+}
+
+#iq-testimonial {
+    margin-bottom: -400px;
 }
 
 .tabpanel-icon {
@@ -69,11 +79,9 @@
 }
 
 .overlay {
-    padding: 0% 0% 0% 25%;
-    max-height: auto;
-    max-width: 40%;
     position: absolute;
     z-index: 11;
+
 }
 
 .carousel-img {
@@ -88,7 +96,7 @@
 }
 
 .sub-text {
-    color: black;
+    color: grey;
 }
 
 
