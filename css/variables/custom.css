@@ -11,7 +11,9 @@
     filter: drop-shadow(3px 3px 3px #222);
 }
 
-
+#whatsbusy-logo {
+    color: #F2AE4A;
+}
 
 .tabpanel-icon {
     max-height: 82px;
