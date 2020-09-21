@@ -1,8 +1,8 @@
-.click-btn{
+.click-btn, #submit-form {
     background: linear-gradient(90deg, rgba(242, 199, 74) 0%, rgba(242, 154, 73, 1) 100%);
 }
 
-#contact-form-submit:hover {
+.click-btn:hover{
     transition-delay: 1s; /* delays for 1 second */
     -webkit-transition-delay: 1s; /* for Safari & Chrome */
     background-color:linear-gradient(90deg, rgba(242, 154, 73, 1) 0%, rgba(242, 199, 74) 100%);
