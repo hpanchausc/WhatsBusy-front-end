@@ -1,8 +1,8 @@
-.click-btn, #submit-form {
+.click-btn{
     background: linear-gradient(90deg, rgba(242, 199, 74) 0%, rgba(242, 154, 73, 1) 100%);
 }
 
-.click-btn:hover {
+#contact-form-submit:hover {
     transition-delay: 1s; /* delays for 1 second */
     -webkit-transition-delay: 1s; /* for Safari & Chrome */
     background-color:linear-gradient(90deg, rgba(242, 154, 73, 1) 0%, rgba(242, 199, 74) 100%);
@@ -10,6 +10,8 @@
     -webkit-filter: drop-shadow(3px 3px 3px #222);
     filter: drop-shadow(3px 3px 3px #222);
 }
+
+
 
 .tabpanel-icon {
     max-height: 82px;
@@ -98,6 +100,10 @@
     width: 100px;
     -webkit-filter: drop-shadow(3px 3px 3px #222);
     filter: drop-shadow(3px 3px 3px #222);
+}
+
+#iq-contact {
+    margin-top: 50px;
 }
 
 @media (min-width: 768px) {
