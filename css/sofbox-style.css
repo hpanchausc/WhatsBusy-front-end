@@ -1024,16 +1024,16 @@ color pallet Style-1
 
 /*color pallet box-2*/
 
-.color-palette.org-hover:before ,.sox-services.org-hover:before{  background-image: -moz-linear-gradient( 0deg, rgb(255,121,109) 0%, rgb(255,175,167) 100%);
-  background-image: -webkit-linear-gradient( 0deg, rgb(255,121,109) 0%, rgb(255,175,167) 100%);
-  background-image: -ms-linear-gradient( 0deg, rgb(255,121,109) 0%, rgb(255,175,167) 100%);
+.color-palette.org-hover:before ,.sox-services.org-hover:before{  background-image: -moz-linear-gradient( 0deg, rgb(242, 154, 73) 0%, rgb(242, 199, 74) 100%);
+  background-image: -webkit-linear-gradient( 0deg, rgb(242, 154, 73) 0%, rgb(242, 199, 74) 100%);
+  background-image: -ms-linear-gradient( 0deg, rgb(242, 154, 73) 0%, rgb(242, 199, 74) 100%);
 box-shadow: 0px 10px 20px 0px rgba(255, 121, 109, 0.4);}
 .color-palette.org-hover.org-arrow:after { content: ""; background: url('../images/home-4/arrow-2.png'); display: inline-block; position: absolute; right: -6%; width: 58px; height: 87px; bottom: -62%; }
-.color-palette.org-hover .circle-icon{color: #ff6a5c}
+.color-palette.org-hover .circle-icon{color: #F2AE4A;}
 .color-palette.org-hover:hover .circle-icon{color: #ffffff}
-.color-palette.org-hover .circle-icon:before{ background-image: -moz-linear-gradient( 90deg, rgb(255,255,255) 0%, rgb(255,106,92) 100%);
-  background-image: -webkit-linear-gradient( 90deg, rgb(255,255,255) 0%, rgb(255,106,92) 100%);
-  background-image: -ms-linear-gradient( 90deg, rgb(255,255,255) 0%, rgb(255,106,92) 100%);}
+.color-palette.org-hover .circle-icon:before{ background-image: -moz-linear-gradient( 90deg, rgb(255,255,255) 0%, rgb(242, 154, 73) 100%);
+  background-image: -webkit-linear-gradient( 90deg, rgb(255,255,255) 0%, rgb(242, 154, 73) 100%);
+  background-image: -ms-linear-gradient( 90deg, rgb(255,255,255) 0%, rgb(242, 154, 73) 100%);}
 
 /*color pallet box-3*/
 
