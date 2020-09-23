@@ -1472,7 +1472,7 @@ About us style box
   100% { -webkit-transform: rotate(360deg); -moz-transform: rotate(360deg); -o-transform: rotate(360deg); transform: rotate(360deg) }
 }
 .about-style:hover .effect-circle { webkit-animation-play-state: running; -moz-animation-play-state: running; -o-animation-play-state: running; animation-play-state: running; }
-.about-style .effect-circle { width: 180px; height: 180px; border-radius: 900px; border: 1px solid rgba(255, 106, 92, 1); position: absolute; -webkit-animation: iq-circle-effect 10s infinite linear; -moz-animation: iq-circle-effect 10s infinite linear; -o-animation: iq-circle-effect 10s infinite linear; animation: iq-circle-effect 10s infinite linear; -webkit-animation-play-state: paused; -moz-animation-play-state: paused; -o-animation-play-state: paused; animation-play-state: paused; }
+.about-style .effect-circle { width: 180px; height: 180px; border-radius: 900px; border: 1px solid rgb(242, 154, 73); position: absolute; -webkit-animation: iq-circle-effect 10s infinite linear; -moz-animation: iq-circle-effect 10s infinite linear; -o-animation: iq-circle-effect 10s infinite linear; animation: iq-circle-effect 10s infinite linear; -webkit-animation-play-state: paused; -moz-animation-play-state: paused; -o-animation-play-state: paused; animation-play-state: paused; }
 .about-style .dot-circle { position: relative; width: 180px; height: 180px; display: inline-block;margin-bottom: 30px; }
 .about-style .effect-circle:before { width: 10px; height: 10px; top: -5px; background: #ffffff; border: 1px solid #6f73f0; border-radius: 90px; display: inline-block; position: absolute; content: "";opacity: 1; -webkit-transition: all 0.5s ease-out 0s; -moz-transition: all 0.5s ease-out 0s; -ms-transition: all 0.5s ease-out 0s; -o-transition: all 0.5s ease-out 0s; transition: all 0.5s ease-out 0s;}
 .about-style:hover .effect-circle:before {opacity: 1;}
@@ -1484,8 +1484,8 @@ About us style box
 
 .about-style.org-hover .effect-circle{border: 1px solid rgba(255, 106, 92, 0.6);}
 .about-style.org-hover .circle-bg {background: rgba(255, 106, 92, 0.2);}
-.about-style.org-hover .main-circle i{color:#ff796d; }
-.about-style.org-hover .effect-circle:before {border-color:#ff796d; }
+.about-style.org-hover .main-circle i{color:#F2AE4A; }
+.about-style.org-hover .effect-circle:before {border-color:#F2AE4A; }
 
 .about-style.green-hover .effect-circle{border: 1px solid rgba(100,218,193, 0.6);}
 .about-style.green-hover .circle-bg {background: rgba(100,218,193, 0.2);}
