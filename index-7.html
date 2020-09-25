@@ -928,8 +928,11 @@
 <!-- Carousel JS File -->
 <script src="js/carousel.js"></script>
 
-<!-- Animation JS for Home Section Popups -->
-<script src="js/animation.js"></script>
+<!-- Modal Input validation  -->
+<script src="js/modal-validation.js"></script>
+<script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/jquery.validate.min.js"></script>
+<script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/additional-methods.min.js"></script>
+
 <!-- reCaptcha -->
 <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 
@@ -950,27 +953,27 @@
 					<div class="col-sm-6">
 						<div class="form-group">
 							<label for="first-name"> First Name </label> 
-							<input type="text" class="form-control" id="first-name" placeholder="Bob" required name="_firstName">
+							<input type="text" class="form-control" id="_firstName" placeholder="Bob" required name="_firstName">
 						</div>
 					</div>
 					<div class="col-sm-6">
 						<div class="form-group">
 							<label for="last-name"> Last Name </label> 
-							<input type="text" class="form-control" id="last-name" placeholder="Smith" required name="_lastName">
+							<input type="text" class="form-control" id="_lastName" placeholder="Smith" required name="_lastName">
 						</div>
 					</div>
 				</div>
 				<div class="form-group">
 					<label for="demo-email"> Email address </label>
-					<input type="email" class="form-control" id="demo-email" placeholder="Bob@Gmail.com" required name="_email">
+					<input type="email" class="form-control" id="_email" placeholder="Bob@Gmail.com" required name="_email">
 				</div>
 				<div class="form-group">
 					<label for="demo-number"> Phone Number </label>
-					<input type="tel" class="form-control" id="demo-number" placeholder="555-555-5555" required name="_number">
+					<input type="tel" class="form-control" id="_number" placeholder="555-555-5555" required name="_number">
 				</div>
 				<div class="form-group">
 					<label for="demo-restaurant-name"> Restaurant Name </label>
-					<input type="text" class="form-control" id="demo-restaurant-name" placeholder="Popeyes" required name="_restaurant">
+					<input type="text" class="form-control" id="_restaurant" placeholder="Popeyes" required name="_restaurant">
 				</div>
 				<div class="modal-footer">
 					<div class="g-recaptcha" data-sitekey="6Le-m8oZAAAAAFLlQR_N8MGo8u49T2H4hkmRLUHv"></div>
