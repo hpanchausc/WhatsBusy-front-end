@@ -57,7 +57,7 @@ import Css
   --linear-color-2: rgb(163, 120, 252);
   --linear-color-3: rgb(109, 115, 239, 0.8);
 
-  --primary-box-shadow: 0px 10px 20px 0px rgba(139, 118, 246, 0.4);
+  --primary-box-shadow: 0px 10px 20px 0px rgba(242, 199, 74, 0.5);
 
   --title-font-family: 'Now', sans-serif;
   --body-font-family: 'Poppins', sans-serif;
@@ -153,7 +153,7 @@ color: #ffffff; }
 color: #ffffff; }
 :-moz-placeholder { /* Firefox 18- */
 color: #ffffff; }
-textarea.form-control, textarea { background: none; height: 230px; padding: 15px 15px; margin-bottom: 30px; -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px; border: 2px solid #eff1fe; }
+textarea.form-control, textarea { background: none; height: 230px; padding: 15px 15px; margin-bottom: 30px; -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px; border: 1px solid #F2C74A; }
 input:hover, input.form-control:hover, input:focus, input.form-control:focus, textarea.form-control:hover, textarea.form-control:focus, textarea:hover, textarea:focus { border: 2px solid var(--primary-color); background: none; outline: 0; box-shadow: none;  }
 
 /*----------------------------------------------------------------------
