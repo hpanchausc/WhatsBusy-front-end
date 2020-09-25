@@ -199,10 +199,11 @@
 }
 
 .animation-container {
-    outline: 3px solid #333;
+    filter: drop-shadow(5px 5px 5px #bbbbbb);
+    border-radius: 15px;
     max-width: 70%;
     max-height: 70%;
     position: absolute;
     /*border: 10px solid #bbbbbb; */
-    box-shadow: 15px 15px #bbbbbb;
+
 }
