@@ -192,3 +192,17 @@
 .subtitle-p {
     color: black;
 }
+
+.animation-row {
+    margin-top: 100px;
+    margin-left: 750px;
+}
+
+.animation-container {
+    outline: 3px solid #333;
+    max-width: 70%;
+    max-height: 70%;
+    position: absolute;
+    /*border: 10px solid #bbbbbb; */
+    box-shadow: 15px 15px #bbbbbb;
+}
