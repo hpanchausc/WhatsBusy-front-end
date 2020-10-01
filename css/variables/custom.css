@@ -1,8 +1,92 @@
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
     body { 
         padding-top: 70px; 
     }
+
+    .animation-row {
+        height: 300px;
+        left: 305px; /* play around with this */
+        position:absolute;
+        top: 58%; /* and play around with this */
+        width: 500px;
+        z-index: 20;
+    }
 }
+
+/* Surface Duo  */
+@media (max-width: 540px){
+    .animation-row {
+        height: 230px;
+        left: 215px; /* play around with this */
+        position:absolute;
+        top: 58%; /* and play around with this */
+        width: 500px;
+        z-index: 20;
+    }
+}
+
+/* Pixel 2, Pixel 2XL  */
+@media (max-width: 420px){
+    .animation-row {
+        height: 255px;
+        left: 145px; /* play around with this */
+        position:absolute;
+        top: 58%; /* and play around with this */
+        width: 500px;
+        z-index: 20;
+    }
+
+}
+
+/* iPhone X  */
+@media (max-width: 380px){
+    .animation-row {
+        height: 235px;
+        left: 135px; /* play around with this */
+        position:absolute;
+        top: 58%; /* and play around with this */
+        width: 500px;
+        z-index: 20;
+    }
+}
+
+/* Moto 4, Galaxy s5,  */
+@media (max-width: 360px){
+    .animation-row {
+        height: 225px;
+        left: 130px; /* play around with this */
+        position:absolute;
+        top: 58%; /* and play around with this */
+        width: 500px;
+        z-index: 20;
+    }
+}
+
+/* iPhone 5/SE  */
+@media (max-width: 320px){
+    .animation-row {
+        height: 200px;
+        left: 115px; /* play around with this */
+        position:absolute;
+        top: 58%; /* and play around with this */
+        width: 500px;
+        z-index: 20;
+    }
+}
+
+/* Galaxy Fold  */
+@media (max-width: 280px){
+    .animation-row {
+        height: 175px;
+        left: 105px; /* play around with this */
+        position:absolute;
+        top: 58%; /* and play around with this */
+        width: 500px;
+        z-index: 20;
+    }
+}
+
+
 
 .click-btn, #submit-form {
     background: linear-gradient(90deg, rgba(242, 199, 74) 0%, rgba(242, 154, 73, 1) 100%);
@@ -194,11 +278,6 @@
     color: black;
 }
 
-.animation-row {
-    margin-top: 100px;
-    margin-left: 750px;
-}
-
 .animation-container {
     filter: drop-shadow(5px 5px 5px #bbbbbb);
     border-radius: 15px;
@@ -207,4 +286,12 @@
     position: absolute;
     /*border: 10px solid #bbbbbb; */
 
+}
+
+@media screen and (min-width: 1000px) {
+    .animation-row {
+        margin-top: 100px;
+        margin-left: 750px;
+    }
+    
 }
